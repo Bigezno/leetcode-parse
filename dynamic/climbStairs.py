@@ -35,7 +35,7 @@ class Solution:
         self.memo = {}
 
     def climbStairs_v2(self, n: int) -> int:
-        # 优化为备忘录解法, 记录每次的解法；
+        # 备忘录解法，自顶向下，递归调用
         if n == 1:
             return 1
         if n == 2:
@@ -46,6 +46,7 @@ class Solution:
 
 
     def climbStairs_v3(self, n: int) -> int:
+        # 动态规划--> 找出状态转移方程，然后自底向上求解；
         db[1] = 1
         db[2] = 2
         if n == 1:
