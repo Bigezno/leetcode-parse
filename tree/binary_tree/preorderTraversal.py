@@ -13,6 +13,11 @@ tag:
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional, List
+
+from tree.ListNode import TreeNode
+
+
 class Solution:
     def traversal(self, val_list, root):
         if not root:

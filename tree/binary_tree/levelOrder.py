@@ -12,6 +12,11 @@ tag:
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import List
+
+from tree.ListNode import TreeNode
+
+
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         val_list = []

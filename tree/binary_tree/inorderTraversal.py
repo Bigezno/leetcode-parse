@@ -13,6 +13,11 @@ tag:
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional, List
+
+from tree.ListNode import TreeNode
+
+
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         val_list = []
