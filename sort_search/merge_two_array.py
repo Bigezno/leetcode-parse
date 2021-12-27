@@ -6,6 +6,8 @@ date:  23:49
 desc: 合并两个有序数组
 tag: 数组 双指针 排序
 '''
+from typing import List
+
 
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:

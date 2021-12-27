@@ -12,6 +12,9 @@ tag:
 # @return an integer
 # def isBadVersion(version):
 
+def isBadVersion(version):
+    pass
+
 class Solution:
     def firstBadVersion(self, n):
         """
